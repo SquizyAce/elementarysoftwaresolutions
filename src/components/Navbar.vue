@@ -2,8 +2,8 @@
    <nav>
     <div class="nav-wrapper blue">
       <ul id="nav-mobile" class="left">
-        <li style="active"><router-link to="/">Главная</router-link></li>
-        <li><router-link to="/convert">Статистика и Конвертация</router-link></li>
+        <li :class="{active: this.$route.path == '/'}"><router-link to="/">Главная</router-link></li>
+        <li :class="{active: this.$route.path == '/convert'}"><router-link to="/convert">Статистика и Конвертация</router-link></li>
       </ul>
       <a href="#" class="brand-logo center"><img src="@/assets/logo.png" alt=""></a>
       <ul id="nav-mobile" class="right">

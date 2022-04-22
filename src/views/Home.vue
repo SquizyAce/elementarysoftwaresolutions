@@ -106,6 +106,7 @@ export default {
     fx.base = this.currency.base;
     this.table = this.currency.rates
     this.table = Object.keys(this.table).map(key => ({ ...this.table[key], id: key, price: fx.convert(1, {from: key, to: "RUB"}), valute: valutes[key] }))
+    console.log(this.$route)
   },
   methods: {
     async onSubmit() {      
