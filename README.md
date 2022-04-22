@@ -27,7 +27,7 @@ money.js,
 materializecss,
 Vuelidate,
 
-### исполнения БД и Бэкэнда:
+### Исполнения БД и Бекэнда:
 Использовал firebase realtime database и auth для бд и авторизации
 Скриншот БД - https://imgur.com/UEDzq6U
 Получение данных курса валют происходит через https://www.cbr-xml-daily.ru/
