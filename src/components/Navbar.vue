@@ -46,7 +46,7 @@ export default {
   methods: {
     async logout(){
       await this.$store.dispatch('logout')
-      this.$router.push('/?message=logout')
+      this.$router.go()
     }
   },
   beforeDestroy() {
