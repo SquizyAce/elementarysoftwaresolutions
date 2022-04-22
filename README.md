@@ -22,10 +22,10 @@ npm run serve
 зарегистрировать нового.
 
 ### Использовал плагины:
-moment.js
-money.js
-css Materialize
-Vuelidate
+moment.js,
+money.js,
+materializecss,
+Vuelidate,
 
 ### исполнения БД и Бэкэнда:
 Использовал firebase realtime database и auth для бд и авторизации
