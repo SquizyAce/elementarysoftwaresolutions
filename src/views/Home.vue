@@ -1,8 +1,9 @@
 <template>
  <div class="container">
+   <div class="">
    <table>
         <thead>
-          <tr>
+          <tr style="border-color: black; font-size: 1.5em">
               <th>Букв. код</th>
               <th>Валюта</th>
               <th>Курс</th>
@@ -10,13 +11,14 @@
         </thead>
 
         <tbody>
-          <tr v-for="rate in table" :key="rate.id">
+          <tr style="border-color: black; font-weight: bolder;" class="" v-for="rate in table" :key="rate.id">
             <td>{{rate.id}}</td>
             <td>{{rate.valute}}</td>
             <td>{{rate.price.toFixed(2)}}₽</td>
           </tr>
         </tbody>
       </table>
+      </div>
 
 
 

@@ -1,8 +1,8 @@
 <template>
    <nav>
-    <div class="nav-wrapper black">
+    <div class="nav-wrapper blue">
       <ul id="nav-mobile" class="left">
-        <li><router-link to="/">Главная</router-link></li>
+        <li style="active"><router-link to="/">Главная</router-link></li>
         <li><router-link to="/convert">Статистика и Конвертация</router-link></li>
       </ul>
       <a href="#" class="brand-logo center"><img src="@/assets/logo.png" alt=""></a>
